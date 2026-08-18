@@ -11,26 +11,42 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <style>
-    html, body {
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
-      background: #ffffff;
+      background: #000;
       overflow: hidden;
     }
 
-    iframe {
+    .carteira {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .carteira img {
       width: 100%;
       height: 100%;
-      border: none;
+      object-fit: contain;
+      display: block;
     }
   </style>
 </head>
 
 <body>
 
-  <iframe src="Carteira-digital-CAAP.pdf"></iframe>
+  <main class="carteira">
+    <img src="Carteira-digital.PNG" alt="Carteira Digital">
+  </main>
 
 </body>
 </html>
