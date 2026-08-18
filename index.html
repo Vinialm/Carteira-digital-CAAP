@@ -17,39 +17,37 @@
   <style>
     * {
       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
       -webkit-tap-highlight-color: transparent;
     }
 
     html,
     body {
-      margin: 0;
-      padding: 0;
       width: 100%;
       height: 100%;
-      background: #000;
       overflow: hidden;
       position: fixed;
       inset: 0;
+      background: #000;
       touch-action: none;
-      overscroll-behavior: none;
     }
 
     .carteira {
       width: 100vw;
       height: 100vh;
+      overflow: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
-      overflow: hidden;
     }
 
     .carteira img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      object-position: center;
       display: block;
-      width: 150%;
-      height: 150%;
-      max-width: none;
-      max-height: none;
-      object-fit: contain;
     }
   </style>
 </head>
@@ -57,10 +55,7 @@
 <body>
 
   <main class="carteira">
-    <img
-      src="Carteira-digital.PNG"
-      alt="Carteira Digital"
-    >
+    <img src="Carteira-digital.PNG" alt="Carteira Digital">
   </main>
 
 </body>
