@@ -8,233 +8,29 @@
 
   <meta name="theme-color" content="#0b2d5c">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <style>
-    * {
+    html, body {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    body {
-      background: #f4f6f9;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-    }
-
-    .carteira {
       width: 100%;
-      max-width: 430px;
+      height: 100%;
       background: #ffffff;
-      border-radius: 25px;
       overflow: hidden;
-      box-shadow: 0 10px 35px rgba(0,0,0,0.12);
     }
 
-    .topo {
-      background: linear-gradient(145deg, #0b2d5c, #124b91);
-      padding: 35px 25px 30px;
-      text-align: center;
-      color: white;
-    }
-
-    .logo {
-      width: 90px;
-      height: 90px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.15);
-      margin: 0 auto 18px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 28px;
-      font-weight: bold;
-      border: 2px solid rgba(255,255,255,0.5);
-    }
-
-    .titulo {
-      font-size: 24px;
-      font-weight: 700;
-      margin-bottom: 7px;
-    }
-
-    .subtitulo {
-      font-size: 14px;
-      opacity: 0.9;
-    }
-
-    .conteudo {
-      padding: 25px 20px 30px;
-    }
-
-    .identificacao {
-      background: #f5f7fa;
-      border-radius: 16px;
-      padding: 18px;
-      margin-bottom: 22px;
-      text-align: center;
-    }
-
-    .identificacao h2 {
-      color: #0b2d5c;
-      font-size: 19px;
-      margin-bottom: 5px;
-    }
-
-    .identificacao p {
-      color: #666;
-      font-size: 14px;
-    }
-
-    .botoes {
-      display: flex;
-      flex-direction: column;
-      gap: 13px;
-    }
-
-    .botao {
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      padding: 17px;
-      border-radius: 15px;
-      background: #ffffff;
-      border: 1px solid #e3e7ec;
-      color: #1d1d1d;
-      font-weight: 600;
-      transition: 0.2s;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    }
-
-    .botao:active {
-      transform: scale(0.98);
-    }
-
-    .icone {
-      width: 45px;
-      height: 45px;
-      border-radius: 12px;
-      background: #0b2d5c;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 21px;
-      flex-shrink: 0;
-    }
-
-    .texto-botao {
-      display: flex;
-      flex-direction: column;
-      gap: 3px;
-    }
-
-    .texto-botao span {
-      font-size: 15px;
-    }
-
-    .texto-botao small {
-      color: #777;
-      font-size: 12px;
-      font-weight: normal;
-    }
-
-    .rodape {
-      text-align: center;
-      padding-top: 25px;
-      color: #999;
-      font-size: 11px;
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
     }
   </style>
 </head>
 
 <body>
 
-  <main class="carteira">
-
-    <section class="topo">
-
-      <div class="logo">
-        <img src="Untitled%20design.png" alt="Logo">
-      </div>
-
-      <h1 class="titulo">
-        Carteira Digital
-      </h1>
-
-      <p class="subtitulo">
-        Seu acesso rápido e seguro
-      </p>
-
-    </section>
-
-    <section class="conteudo">
-
-      <div class="identificacao">
-        <h2>Carteira do Associado</h2>
-        <p>Tenha seus principais acessos sempre à mão.</p>
-      </div>
-
-      <div class="botoes">
-
-        <!-- WHATSAPP -->
-        <a
-          class="botao"
-          href="https://wa.me/5596000000000"
-          target="_blank"
-        >
-          <div class="icone">💬</div>
-
-          <div class="texto-botao">
-            <span>WhatsApp</span>
-            <small>Entre em contato</small>
-          </div>
-        </a>
-
-
-        <!-- GOOGLE MAPS -->
-        <a
-          class="botao"
-          href="https://maps.google.com/"
-          target="_blank"
-        >
-          <div class="icone">📍</div>
-
-          <div class="texto-botao">
-            <span>Localização</span>
-            <small>Veja como chegar</small>
-          </div>
-        </a>
-
-
-        <!-- PDF DOS CONVÊNIOS -->
-        <a
-          class="botao"
-          href="convenios.pdf"
-          target="_blank"
-        >
-          <div class="icone">📄</div>
-
-          <div class="texto-botao">
-            <span>Convênios</span>
-            <small>Consultar benefícios</small>
-          </div>
-        </a>
-
-      </div>
-
-      <div class="rodape">
-        Carteira Digital • 2026
-      </div>
-
-    </section>
-
-  </main>
+  <iframe src="Carteira-digital-CAAP.pdf"></iframe>
 
 </body>
 </html>
